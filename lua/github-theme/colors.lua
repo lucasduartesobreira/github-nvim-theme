@@ -538,10 +538,26 @@ function M.setup(config)
       b = {bg = colors.bg2, fg = colors.blue},
       c = {bg = colors.bg, fg = colors.fg_light}
     },
-    insert = {a = {bg = colors.green, fg = colors.bg}, b = {bg = colors.bg2, fg = colors.green}},
-    command = {a = {bg = colors.magenta, fg = colors.bg}, b = {bg = colors.bg2, fg = colors.magenta}},
-    visual = {a = {bg = colors.yellow, fg = colors.bg}, b = {bg = colors.bg2, fg = colors.yellow}},
-    replace = {a = {bg = colors.red, fg = colors.bg}, b = {bg = colors.bg2, fg = colors.red}},
+    insert = {
+      a = {bg = colors.green, fg = colors.bg},
+      b = {bg = colors.bg2, fg = colors.green},
+      c = {bg = colors.bg, fg = colors.fg_light}
+    },
+    command = {
+      a = {bg = colors.magenta, fg = colors.bg},
+      b = {bg = colors.bg2, fg = colors.magenta},
+      c = {bg = colors.bg, fg = colors.fg_light}
+    },
+    visual = {
+      a = {bg = colors.yellow, fg = colors.bg},
+      b = {bg = colors.bg2, fg = colors.yellow},
+      c = {bg = colors.bg, fg = colors.fg_light}
+    },
+    replace = {
+      a = {bg = colors.red, fg = colors.bg},
+      b = {bg = colors.bg2, fg = colors.red},
+      c = {bg = colors.bg, fg = colors.fg_light}
+    },
     inactive = {
       a = {bg = colors.bg_statusline, fg = colors.green},
       b = {bg = colors.bg_statusline, fg = colors.bg2, gui = "bold"},
