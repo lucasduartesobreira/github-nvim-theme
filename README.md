@@ -34,6 +34,8 @@ Extra color configs for **kitty**, **iTerm**, **Konsole**, **tmux** and **Alacri
 - [lspsaga.nvim](https://github.com/glepnir/lspsaga.nvim)
 - [Lualine](https://github.com/hoob3rt/lualine.nvim)
 - [nvim-bufferline.lua](https://github.com/akinsho/nvim-bufferline.lua)
+- [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
+- [nvim-compe](https://github.com/hrsh7th/nvim-compe)
 - [nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons)
 - [Neogit](https://github.com/TimUntersberger/neogit)
 - [NvimTree](https://github.com/kyazdani42/nvim-tree.lua)
@@ -381,6 +383,10 @@ require("github-theme").setup({
 <p align="center">
   <img src="https://imgur.com/WBRiOwx.png" alt="github_telescope" />
 </p>
+
+## Contributing
+
+Check [CONTRIBUTING.md](./CONTRIBUTING.md), any suggestions for features and contributions to the continuing code masterelopment can be made via the issue tracker or code contributions via a `Fork` & `Pull requests`.
 
 <!-- Ninja  -->
 <p align="center">

@@ -397,6 +397,7 @@ function M.setup(config)
     NvimTreeRootFolder = {fg = c.fg_light, style = "bold"},
     NvimTreeGitDirty = {fg = c.git.change},
     NvimTreeGitNew = {fg = c.git.add},
+    NvimTreeGitRenamed = {fg = c.git.renamed},
     NvimTreeGitDeleted = {fg = c.git.delete},
     NvimTreeSpecialFile = {fg = c.yellow, style = "underline"},
     NvimTreeIndentMarker = {fg = c.syntax.comment},
@@ -473,7 +474,16 @@ function M.setup(config)
     DevIconTs = {fg = c.dev_icons.typescript},
     DevIconXml = {fg = c.dev_icons.xml},
     DevIconYaml = {fg = c.dev_icons.yml},
-    DevIconYml = {fg = c.dev_icons.yml}
+    DevIconYml = {fg = c.dev_icons.yml},
+
+    -- Compe
+    CompeDocumentation = {links = "NormalFloat"},
+    CompeDocumentationBorder = {links = "FloatBorder"},
+
+    -- Cmp
+    CmpDocumentation = {links = "NormalFloat"},
+    CmpDocumentationBorder = {links = "FloatBorder"}
+
   }
 
   if config.hide_inactive_statusline then
